@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  chk:boolean=true; //make it false and check to see the diff. b/w interpolation and property binding
+  name:string="hii";
+  num:number=10;
+  emp:any[]=[
+    {
+      name:"we",
+      num:20
+    },
+    {
+      name:"well",
+      num:30
+    }
+  ]
 }
